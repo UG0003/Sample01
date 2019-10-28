@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>たかくら八百屋オンライン</title>
+</head>
+
+<body>
+    お客様情報を入力してください<br><br>
+    <form method="post" action="shop_form_check.php">
+        お名前<br>
+        <input type="text" name="onamae" style="width:200px"><br>
+        メールアドレス<br>
+        <input type="mail" name="email" style="width:200px"><br>
+        郵便番号(半角数字で入力してください)<br>
+        <input type="text" name="postal1" style="width:50px"> -
+        <input type="text" name="postal2" style="width:50px"><br>
+        住所<br>
+        <input type="text" name="address" style="width:300px"><br>
+        電話番号(半角数字で入力してください)<br>
+        <input type="text" name="tel" style="width:150px"><br><br>
+        <input type="button" onclick="history.back()" value="戻る">
+        <input type="submit" value="OK"><br>
+    </form>
+
+</body>
+
+</html>
